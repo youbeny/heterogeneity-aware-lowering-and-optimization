@@ -23,5 +23,9 @@
 // RUN: %t_dnnl.exe 0.0001 0 dnnl %data_path/test_reduce_mean_do_not_keepdims_example | FileCheck %s
 // CHECK: Result Pass
 // clang-format on
+<<<<<<< HEAD
 
+=======
+// XFAIL: *
+>>>>>>> [UnitTest] add lit test cases & remove the way to read cvs list (#107)
 #include "test_reduce_mean_do_not_keepdims_example_dnnl.cc.tmp.main.cc.in"

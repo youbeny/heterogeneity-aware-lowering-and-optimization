@@ -23,5 +23,9 @@
 // RUN: %t_xnnpack.exe 0.0001 0 xnnpack %data_path/test_add | FileCheck %s
 // CHECK: Result Pass
 // clang-format on
+<<<<<<< HEAD
 
+=======
+// XFAIL: *
+>>>>>>> [UnitTest] add lit test cases & remove the way to read cvs list (#107)
 #include "test_add_xnnpack.cc.tmp.main.cc.in"

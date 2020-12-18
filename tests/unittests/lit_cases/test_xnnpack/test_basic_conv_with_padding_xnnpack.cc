@@ -23,5 +23,9 @@
 // RUN: %t_xnnpack.exe 0.0001 0 xnnpack %data_path/test_basic_conv_with_padding | FileCheck %s
 // CHECK: Result Pass
 // clang-format on
+<<<<<<< HEAD
 
+=======
+// XFAIL: *
+>>>>>>> [UnitTest] add lit test cases & remove the way to read cvs list (#107)
 #include "test_basic_conv_with_padding_xnnpack.cc.tmp.main.cc.in"
